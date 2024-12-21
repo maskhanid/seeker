@@ -123,7 +123,7 @@ def banner():
 	utils.print(f'{G}{art}{W}\n')
 	utils.print(f'{G}[>] {C}Created By   : {W}Mas Khan ID')
 	utils.print(f'{G} |---> {C}WhatsApp  : {W}{whatsapp_url}')
-	utils.print(f'{G} |---> {C}Website : {W}{comms_url}')
+	utils.print(f'{G} |---> {C}Website   : {W}{comms_url}')
 	utils.print(f'{G}[>] {C}Version      : {W}{VERSION}\n')
 
 
