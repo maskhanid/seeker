@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 
 jobs:
   docker:
@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: thewhiteh4t/seeker:latest
+          tags: maskhanid/seeker:latest
